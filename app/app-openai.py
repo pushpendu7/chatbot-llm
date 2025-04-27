@@ -16,7 +16,6 @@ streaming = st.toggle(label="Streaming output", key="streaming", value=True, hel
 
 def reset_session():
     st.session_state.clear()
-    # st.rerun()
 
 
 message_container = st.container(height = 400, border=True)
